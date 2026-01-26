@@ -24,13 +24,14 @@ int main(){
         
             //TODO: Generate a random number between 1 and 5
             //      for the computer's selection
-        int cpmputerChoice = rand()%5+1;
+        int computerChoice = rand()%5+1;
 
         //TODO: Use a combination of switch and/or if statements to determine the winner
         //      and print it to the console. Please also set the result variable equal to
         //      the same string. The statements should be one of the of the following:
+        cout<<"Computer choice: "<< computerChoice<<endl;
         if (player == computerChoice){
-            cout<<"It's a tie";
+            cout<<"It's a tie!\n";
         }
         else if (player ==1){
             if (computerChoice==2){
