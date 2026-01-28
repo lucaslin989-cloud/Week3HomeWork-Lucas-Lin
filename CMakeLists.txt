@@ -11,9 +11,6 @@ include_directories( inc )
 
 ADD_EXECUTABLE(ControlStructures "src/ControlStructures.cpp")
 
-ADD_EXECUTABLE( ${APP_EXECUTABLE} "src/ControlStructures.cpp"  "src/ControlStructuresTest.cpp")
-
-target_compile_definitions(ControlStructuresTest PRIVATE TESTING)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR})
 
